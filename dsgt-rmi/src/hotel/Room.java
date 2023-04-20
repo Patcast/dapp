@@ -25,6 +25,9 @@ public class Room {
 		return bookings;
 	}
 
+	public void addSingleBooking(BookingDetail bd){
+		bookings.add(bd);
+	}
 	public void setBookings(List<BookingDetail> bookings) {
 		this.bookings = bookings;
 	}
