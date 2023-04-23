@@ -55,9 +55,7 @@ public class MealRepository {
 
     public Meal findBiggestMeal() {
 
-        if (meals == null) return null;
         if (meals.size() == 0) return null;
-
         var values = meals.values();
         return values.stream().max(Comparator.comparing(Meal::getKcal)).orElseThrow(NoSuchElementException::new);
 
