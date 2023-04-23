@@ -9,6 +9,8 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
+import java.util.List;
+
 
 @Endpoint
 public class MenuEndpoint {
@@ -47,5 +49,18 @@ public class MenuEndpoint {
         return response;
     }
 
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "addOrderRequest")
+    @ResponsePayload
+    public AddOrderResponse addOrder(@RequestPayload AddOrderRequest request) {
+
+        String responseStatus;
+        int amountOfOrders = 0;
+        AddOrderResponse response = new AddOrderResponse();
+
+
+        response.setClientOrder(mealRepo.registerClientOrders( request.getOrdersName(),request.getName(),request.getAddress()));
+
+        return response;
+    }
 
 }

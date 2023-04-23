@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="meal" type="{http://foodmenu.io/gt/webservice}meal"/&gt;
+ *         &lt;element name="clientOrder" type="{http://foodmenu.io/gt/webservice}clientOrder"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "meal"
+    "clientOrder"
 })
-@XmlRootElement(name = "getLargestMealResponse")
-public class GetLargestMealResponse {
+@XmlRootElement(name = "addOrderResponse")
+public class AddOrderResponse {
 
     @XmlElement(required = true)
-    protected Meal meal;
+    protected ClientOrder clientOrder;
 
     /**
-     * Gets the value of the meal property.
+     * Gets the value of the clientOrder property.
      * 
      * @return
      *     possible object is
-     *     {@link Meal }
+     *     {@link ClientOrder }
      *     
      */
-    public Meal getMeal() {
-        return meal;
+    public ClientOrder getClientOrder() {
+        return clientOrder;
     }
 
     /**
-     * Sets the value of the meal property.
+     * Sets the value of the clientOrder property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Meal }
+     *     {@link ClientOrder }
      *     
      */
-    public void setMeal(Meal value) {
-        this.meal = value;
+    public void setClientOrder(ClientOrder value) {
+        this.clientOrder = value;
     }
 
 }

@@ -1,10 +1,8 @@
 package com.example.springsoap;
 
 import javax.annotation.PostConstruct;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.NoSuchElementException;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import io.foodmenu.gt.webservice.*;
 
@@ -69,6 +67,17 @@ public class MealRepository {
         var values = meals.values();
         return values.stream().min(Comparator.comparing(Meal::getPrice)).orElseThrow(NoSuchElementException::new);
 
+    }
+
+    public ClientOrder registerClientOrders( List<String> orderNames,String clientName, String address){
+
+
+        ClientOrder clientOrder = new ClientOrder();
+        orderNames.forEach(n->clientOrder.getMeals().add(findMeal(n)));
+        clientOrder.setName(clientName);
+        clientOrder.setAddress(address);
+
+        return clientOrder;
     }
 
 

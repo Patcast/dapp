@@ -49,15 +49,18 @@
     <xs:element name="addOrderRequest">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="order" type="tns:order"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="address" type="xs:string"/>
+                <xs:element name="ordersName" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
 
+
     <xs:element name="addOrderResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="orderStatus" type="xs:string"/>
+                <xs:element name="clientOrder" type="tns:clientOrder"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -75,7 +78,7 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="order">
+    <xs:complexType name="clientOrder">
         <xs:sequence>
             <xs:element name="name" type="xs:string"/>
             <xs:element name="address" type="xs:string"/>
