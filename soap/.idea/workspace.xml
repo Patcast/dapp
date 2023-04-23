@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ebd3e14-05a6-4f15-bc89-bfcc6df09927" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springsoap/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsoap/Meal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MealRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MenuEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MenuEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsoap/SpringSoapApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsoap/SpringSoapApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meals.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meals.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/meals.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/meals.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/META-INF/JAXB/episode_xjc.xjb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Mealtype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Mealtype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +37,7 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -90,11 +105,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682242194350</updated>
-      <workItem from="1682242195740" duration="2623000" />
+      <workItem from="1682242195740" duration="6519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

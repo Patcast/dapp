@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-
 import io.foodmenu.gt.webservice.*;
 
 
@@ -25,15 +24,18 @@ public class MealRepository {
         a.setDescription("Steak with fries");
         a.setMealtype(Mealtype.MEAT);
         a.setKcal(1100);
+        a.setPrice(17.30);
 
 
         meals.put(a.getName(), a);
 
         Meal b = new Meal();
-        b.setName("Portobello");
-        b.setDescription("Portobello Mushroom Burger");
+        b.setName("Portabello");
+        b.setDescription("Portabello Mushroom Burger");
         b.setMealtype(Mealtype.VEGAN);
         b.setKcal(637);
+        b.setPrice(10.30);
+
 
 
         meals.put(b.getName(), b);
@@ -43,6 +45,7 @@ public class MealRepository {
         c.setDescription("Fried fish with chips");
         c.setMealtype(Mealtype.FISH);
         c.setKcal(950);
+        c.setPrice(15.50);
 
 
         meals.put(c.getName(), c);
@@ -58,6 +61,13 @@ public class MealRepository {
         if (meals.size() == 0) return null;
         var values = meals.values();
         return values.stream().max(Comparator.comparing(Meal::getKcal)).orElseThrow(NoSuchElementException::new);
+
+    }
+    public Meal findCheapestMeal() {
+
+        if (meals.size() == 0) return null;
+        var values = meals.values();
+        return values.stream().min(Comparator.comparing(Meal::getPrice)).orElseThrow(NoSuchElementException::new);
 
     }
 

@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="meal" type="{http://foodmenu.io/gt/webservice}meal"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "name"
+    "meal"
 })
-@XmlRootElement(name = "getMealRequest")
-public class GetMealRequest {
+@XmlRootElement(name = "getCheapestMealResponse")
+public class GetCheapestMealResponse {
 
     @XmlElement(required = true)
-    protected String name;
+    protected Meal meal;
 
     /**
-     * Gets the value of the name property.
+     * Gets the value of the meal property.
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Meal }
      *     
      */
-    public String getName() {
-        return name;
+    public Meal getMeal() {
+        return meal;
     }
 
     /**
-     * Sets the value of the name property.
+     * Sets the value of the meal property.
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Meal }
      *     
      */
-    public void setName(String value) {
-        this.name = value;
+    public void setMeal(Meal value) {
+        this.meal = value;
     }
 
 }

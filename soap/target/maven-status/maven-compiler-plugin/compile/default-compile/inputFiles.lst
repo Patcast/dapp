@@ -4,11 +4,11 @@
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/package-info.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/src/main/java/com/example/springsoap/MealRepository.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealRequest.java
-/home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/src/main/java/com/example/springsoap/Meal.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/src/main/java/com/example/springsoap/WebServiceConfig.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/src/main/java/com/example/springsoap/MenuEndpoint.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/src/main/java/com/example/springsoap/SpringSoapApplication.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetCheapestMealResponse.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealRequest.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Mealtype.java
 /home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealResponse.java
-/home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/src/main/java/com/example/springsoap/Mealtype.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/soap/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetCheapestMealRequest.java

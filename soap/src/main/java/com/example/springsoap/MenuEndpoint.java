@@ -14,18 +14,18 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 public class MenuEndpoint {
     private static final String NAMESPACE_URI = "http://foodmenu.io/gt/webservice";
 
-    private MealRepository mealrepo;
+    private final MealRepository mealRepo;
 
     @Autowired
-    public MenuEndpoint(MealRepository mealrepo) {
-        this.mealrepo = mealrepo;
+    public MenuEndpoint(MealRepository mealRepo) {
+        this.mealRepo = mealRepo;
     }
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getMealRequest")
     @ResponsePayload
     public GetMealResponse getMeal(@RequestPayload GetMealRequest request) {
         GetMealResponse response = new GetMealResponse();
-        response.setMeal(mealrepo.findMeal(request.getName()));
+        response.setMeal(mealRepo.findMeal(request.getName()));
 
         return response;
     }
@@ -34,8 +34,16 @@ public class MenuEndpoint {
     @ResponsePayload
     public GetLargestMealResponse getLargestMeal(@RequestPayload GetLargestMealRequest request) {
         GetLargestMealResponse response = new GetLargestMealResponse();
-        response.setMeal(mealrepo.findBiggestMeal());
+        response.setMeal(mealRepo.findBiggestMeal());
 
+        return response;
+    }
+
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getCheapestMealRequest")
+    @ResponsePayload
+    public GetCheapestMealResponse getCheapestMeal(@RequestPayload GetCheapestMealRequest request) {
+        GetCheapestMealResponse response = new GetCheapestMealResponse();
+        response.setMeal(mealRepo.findCheapestMeal());
         return response;
     }
 
