@@ -33,9 +33,9 @@ public abstract class AbstractScriptedSimpleTest {
 	protected abstract Set<Integer> getAllRooms() throws Exception;
 
 	public void run() throws Exception {
-
-		//Print all rooms of the hotelq
+		int i=0;
 		printAllRooms();
+
 
 		isRoomAvailable(101, today); //true
 		BookingDetail bd1 = new BookingDetail("Ansar", 101, today);
