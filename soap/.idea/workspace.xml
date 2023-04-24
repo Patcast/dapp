@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebd3e14-05a6-4f15-bc89-bfcc6df09927" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requestaddorder.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MealRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MenuEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsoap/MenuEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meals.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meals.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JAXB/episode_xjc.xjb" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JAXB/episode_xjc.xjb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JAXB/episode_xjc_1.xjb" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/JAXB/episode_xjc_1.xjb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springsoap/MealRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springsoap/MealRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springsoap/MenuEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springsoap/MenuEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/foodmenu/gt/webservice/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/foodmenu/gt/webservice/ObjectFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/meals.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/meals.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/META-INF/JAXB/episode_xjc_1.xjb" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/META-INF/JAXB/episode_xjc_1.xjb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetCheapestMealRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetCheapestMealRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetCheapestMealResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetCheapestMealResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetLargestMealResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/GetMealResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Mealtype.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/Mealtype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/jaxb/io/foodmenu/gt/webservice/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="3ebd3e14-05a6-4f15-bc89-bfcc6df09927" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/hurricane97/Documents/kul/masters/distributed/dappwork/soap",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hurricane97/Documents/kul/masters/distributed/dappwork/soap&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SpringSoapApplication">
     <configuration name="SpringSoapApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springsoap.SpringSoapApplication" />
@@ -110,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682242194350</updated>
-      <workItem from="1682242195740" duration="12239000" />
+      <workItem from="1682242195740" duration="12830000" />
     </task>
     <servers />
   </component>
