@@ -1,0 +1,8 @@
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/exceptions/MealNotFoundException.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/domain/MealType.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/domain/MealsRepository.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/controllers/MealsRestController.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/controllers/MealsRestRpcStyleController.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/exceptions/MealNotFoundAdvice.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/domain/Meal.java
+/home/hurricane97/Documents/kul/masters/distributed/dappwork/rest/src/main/java/be/kuleuven/foodrestservice/FoodRestServiceApplication.java

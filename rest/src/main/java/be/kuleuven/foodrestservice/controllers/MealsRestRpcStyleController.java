@@ -3,6 +3,7 @@ package be.kuleuven.foodrestservice.controllers;
 import be.kuleuven.foodrestservice.domain.Meal;
 import be.kuleuven.foodrestservice.domain.MealsRepository;
 import be.kuleuven.foodrestservice.exceptions.MealNotFoundException;
+import be.kuleuven.foodrestservice.exceptions.NoMealsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,6 +27,17 @@ public class MealsRestRpcStyleController {
         return meal.orElseThrow(() -> new MealNotFoundException(id));
     }
 
+    @GetMapping("/restrpc/meals/cheapest")
+    Meal getCheapestMeals() {
+        Optional<Meal> meal = mealsRepository.getCheapestMeal();
+        return meal.orElseThrow(NoMealsException::new);
+    }
+
+    @GetMapping("/restrpc/meals/largest")
+    Meal getLargestMeals() {
+        Optional<Meal> meal = mealsRepository.getCheapestMeal();
+        return meal.orElseThrow(NoMealsException::new);
+    }
     @GetMapping("/restrpc/meals")
     Collection<Meal> getMeals() {
         return mealsRepository.getAllMeal();
