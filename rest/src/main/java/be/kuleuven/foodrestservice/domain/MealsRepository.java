@@ -15,7 +15,6 @@ public class MealsRepository {
     public void initData() {
 
         Meal a = new Meal();
-        a.setId("5268203c-de76-4921-a3e3-439db69c462a");
         a.setName("Steak");
         a.setDescription("Steak with fries");
         a.setMealType(MealType.MEAT);
@@ -26,11 +25,10 @@ public class MealsRepository {
 
 
         Meal b = new Meal();
-        b.setId("4237681a-441f-47fc-a747-8e0169bacea1");
         b.setName("Portobello");
         b.setDescription("Portobello Mushroom Burger");
         b.setMealType(MealType.VEGAN);
-        b.setKcal(637);
+        b.setKcal(837);
         b.setPrice((10.40));
 
         meals.put(b.getId(), b);
@@ -38,11 +36,10 @@ public class MealsRepository {
 
 
         Meal c= new Meal();
-        c.setId("cfd1601f-2re0-485d-8d21-7607ec0340c8");
         c.setName("Chocolate cake");
         c.setDescription("An explosion of melted chocolate");
         c.setMealType(MealType.VEGGIE);
-        c.setKcal(1240);
+        c.setKcal(940);
         c.setPrice(6.12);
 
         meals.put(c.getId(), c);
@@ -63,5 +60,14 @@ public class MealsRepository {
     }
     public Optional<Meal> getLargestMeal(){
         return meals.values().stream().max(Comparator.comparing(Meal::getKcal));
+    }
+
+    public Boolean deleteMealById(String id){
+        return meals.remove(id) != null;
+    }
+    public Meal addNewMeal(Meal newMeal){
+
+        meals.put(newMeal.getId(),newMeal);
+        return newMeal;
     }
 }

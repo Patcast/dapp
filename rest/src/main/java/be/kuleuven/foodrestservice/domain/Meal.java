@@ -1,4 +1,5 @@
 package be.kuleuven.foodrestservice.domain;
+import java.util.UUID;
 
 import java.util.Objects;
 
@@ -11,13 +12,23 @@ public class Meal {
     protected String description;
     protected MealType mealType;
 
+    public Meal() {
+        this.id = String.valueOf(UUID.randomUUID());
+    }
+
+    public Meal( String name, Integer kcal, Double price, String description, MealType mealType) {
+        this.id = String.valueOf(UUID.randomUUID());
+        this.name = name;
+        this.kcal = kcal;
+        this.price = price;
+        this.description = description;
+        this.mealType = mealType;
+    }
+
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
