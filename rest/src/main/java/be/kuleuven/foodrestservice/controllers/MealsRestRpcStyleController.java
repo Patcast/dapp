@@ -54,7 +54,7 @@ public class MealsRestRpcStyleController {
         }
     }
     @PutMapping("/restrpc/meals/edit/{id}")
-    Meal replaceEmployee(@RequestBody Meal updatedMeal, @PathVariable String id) {
+    Meal replaceMeal(@RequestBody Meal updatedMeal, @PathVariable String id) {
 
         return mealsRepository.findMeal(id)
                 .map(a -> {
@@ -68,7 +68,7 @@ public class MealsRestRpcStyleController {
                 .orElseThrow(() -> new MealNotFoundException(id));
     }
     @PostMapping("/restrpc/meals/add")
-    Meal newEmployee(@RequestBody Meal newMeal) {
+    Meal newMeal(@RequestBody Meal newMeal) {
         return mealsRepository.addNewMeal(newMeal);
     }
 }
